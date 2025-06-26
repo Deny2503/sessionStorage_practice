@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-box" id="registrationForm">
+        <div class="header">Registration</div>
+        <label>Email: <input type="text" id="email" required></label>
+        <div class="error" id="emailError"></div>
+
+        <label>Password: <input type="password" id="password" required></label>
+        <div class="error" id="passwordError"></div>
+
+        <label>Repeat: <input type="password" id="repeat" required></label>
+        <div class="error" id="repeatError"></div>
+
+        <button id="signUpBtn">Sign Up</button>
+    </div>
+
+    <div class="form-box" id="userInfoForm" style="display: none">
+        <div class="header">
+            Hello, <span id="userEmail"></span>
+            <a href="#" class="right" id="exitBtn">exit</a>
+        </div>
+
+        <label>First Name: <input type="text" id="firstName" required></label>
+        <div class="error" id="firstNameError"></div>
+
+        <label>Last Name: <input type="text" id="lastName" required></label>
+        <div class="error" id="lastNameError"></div>
+
+        <label>Year of birth: <input type="number" id="year" required></label>
+        <div class="error" id="yearError"></div>
+
+        <label>Gender:
+            <select id="gender">
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </label>
+        <div class="error" id="genderError"></div>
+
+        <label>Phone number: <input type="text" id="phone"></label>
+        <div class="error" id="phoneError"></div>
+
+        <label>Skype: <input type="text" id="skype"></label>
+        <div class="error" id="skypeError"></div>
+
+        <button id="saveBtn">Save</button>
+    </div>
+
+</body>
+
+</html>

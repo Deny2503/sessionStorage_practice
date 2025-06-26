@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f5f0e8;
+    padding: 30px;
+}
+
+.form-box {
+    max-width: 400px;
+    margin: auto;
+    background: #fff2e6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label,
+input,
+select {
+    display: block;
+    width: 97%;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin: -8px 0 8px 0;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.right {
+    float: right;
+}
